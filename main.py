@@ -1,7 +1,7 @@
 from src.models import Tabuleiro
 from src.utils import LeitorTeclado
 from src.ui import Renderizador
-
+import keyboard
 
 class Jogo:
     """Controla o loop principal e a lógica do jogo."""

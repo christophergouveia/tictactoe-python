@@ -1,6 +1,6 @@
 # Jogo da velha (Tic-Tac-Toe)
 
-Um jogo da velha clássico implementado em Python para terminal Windows, com interface colorida e navegação por cursor. Também será implementado sistema multiplayer/cooperativo para jogar online através do Terminal!
+Um jogo da velha clássico implementado em Python para terminal, com interface colorida. Também será implementado sistema multiplayer/cooperativo para jogar online através do Terminal!
 
 ![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
 ![Platform](https://img.shields.io/badge/Platform-Windows-green.svg)
@@ -9,9 +9,6 @@ Um jogo da velha clássico implementado em Python para terminal Windows, com int
 ## 📋 Pré-requisitos
 
 - Python 3.8 ou superior
-- Sistema operacional Windows (usa `msvcrt` para leitura de teclado)
-
-**⚠️ Está sendo desenvolvido uma alternativa para também funcionar com Linux/MacOS, por enquanto somente Windows.**
 
 ## 🚀 Instalação e Execução
 
@@ -20,6 +17,12 @@ Um jogo da velha clássico implementado em Python para terminal Windows, com int
 ```bash
 git clone <url-do-repositorio>
 cd tictactoe-python
+```
+
+### Instale as dependências
+
+```bash
+pip install -r requirements.txt
 ```
 
 ### Execute o jogo
